@@ -1,0 +1,16 @@
+body {
+    width: 900px; /* Largeur fixe */
+    height: 1200px; /* Hauteur fixe */
+    margin: auto; /* Centre le body horizontalement */
+    overflow: hidden; /* Empêche le contenu de déborder */
+    border: 5px solid black; /* Pour voir les limites */
+}
+
+
+.left-side{
+    margin-left: 20px;
+}
+
+.right-side{
+    padding-top: 0%;
+}
