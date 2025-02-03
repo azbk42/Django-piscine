@@ -1,0 +1,44 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Conteneur du formulaire */
+.Form-div {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-div {
+    margin-bottom: 10px;
+}
+/* Style des champs de saisie */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style du bouton */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

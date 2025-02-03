@@ -1,16 +1,36 @@
 body {
-    width: 900px; /* Largeur fixe */
-    height: 1200px; /* Hauteur fixe */
-    margin: auto; /* Centre le body horizontalement */
-    overflow: hidden; /* Empêche le contenu de déborder */
-    border: 5px solid black; /* Pour voir les limites */
+    width: 900px; 
+    height: 1200px; 
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid black;
+    
+}
+
+.Title-info{
+    text-align:center;
+}
+
+.resume {
+    display: flex; /* Permet l'alignement horizontal */
+    justify-content: space-between; /* Évite l’écrasement des divs */
+    align-items: flex-start; /* Alignement en haut */
+    width: 100%; /* S'assure que la largeur est bien utilisée */
+}
+
+.left-side {
+    flex-basis: 30%; /* Définit la largeur à 30% */
+    max-width: 30%; /* Empêche de dépasser */
+}
+
+.right-side {
+    flex-basis: 70%; /* Définit la largeur à 70% */
+    max-width: 70%; /* Empêche de dépasser */
+    background-color: gray;
 }
 
 
-.left-side{
-    margin-left: 20px;
-}
-
-.right-side{
-    padding-top: 0%;
+h1 {
+    text-align: center; /* Centre le titre */
+    width: 100%; /* Assure que le titre occupe toute la largeur */
 }
